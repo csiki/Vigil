@@ -1,0 +1,60 @@
+FileObject 1
+{
+    { Name "a35" }
+    { Type ObjectAnnotation }
+    { GUID "UID_F01159A8-0694-4387-A7F1-548B0E29D83A" }
+}
+
+NodeObject 99999
+{
+    { Name "Crypter" }
+    { Type UmlClass }
+    { ObjectId 949 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A2D38B93-4081-40d7-94C7-1540487F0812" }
+}
+
+NoteObject 2
+{
+    { Type UmlClassDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 971 }
+}
+
+ItemObject 3
+{
+    { Type UmlClassIsImported }
+    { Value "False" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 972 }
+}
+
+NoteObject 4
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 953 }
+}
+
+NoteObject 5
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 955 }
+}
+
+ItemObject 6
+{
+    { Type ObjectName }
+    { Value "Crypter" }
+    { GuidRef "" }
+    { NoteId 5 }
+    { ObjectId 956 }
+}
+

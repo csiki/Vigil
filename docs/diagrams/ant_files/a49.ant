@@ -1,0 +1,73 @@
+FileObject 1
+{
+    { Name "a49" }
+    { Type ObjectAnnotation }
+    { GUID "UID_ADD382FA-4E03-4955-B20A-3B3A1A4F5281" }
+}
+
+NodeObject 99999
+{
+    { Name "Secretary" }
+    { Type UmlClass }
+    { ObjectId 1431 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_79C28A2F-65EF-4fa8-9022-61BE8700484C" }
+}
+
+NodeObject 99998
+{
+    { Name "ModuleManager" }
+    { Type UmlClass }
+    { ObjectId 603 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4AD8C9E9-A742-472f-9293-B1C49B3F4B0F" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlDependency }
+    { ObjectId 1432 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_F9C81D05-83E7-4b61-BA94-F4783F2AF45F" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 1437 }
+}
+
+ItemObject 3
+{
+    { Type UmlStereotype }
+    { Value "uses" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1444 }
+}
+
+NoteObject 4
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 1439 }
+}
+
+ItemObject 5
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 4 }
+    { ObjectId 1440 }
+}
+

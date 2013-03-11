@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a20" }
+    { Type ObjectAnnotation }
+    { GUID "UID_09EA1F7B-5E3E-4e18-85EE-906EFDE85615" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,Communicator" }
+    { Type UmlAssociation }
+    { ObjectId 502 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_539791D4-3CB2-4725-B53F-BC2EC6DC7B7F" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 524 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 526 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Commander,Communicator" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 527 }
+}
+

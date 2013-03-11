@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a13" }
+    { Type ObjectAnnotation }
+    { GUID "UID_EBE16495-EA22-4820-BDF2-CE0512E43A79" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,Interpreter" }
+    { Type UmlAssociation }
+    { ObjectId 367 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_287C050E-CE5A-4030-96AD-EA32E4B83FD1" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 389 }
+}
+
+ItemObject 3
+{
+    { Type UmlStereotype }
+    { Value "nested" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 419 }
+}
+
+NoteObject 4
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 391 }
+}
+
+ItemObject 5
+{
+    { Type ObjectName }
+    { Value "Commander,Interpreter" }
+    { GuidRef "" }
+    { NoteId 4 }
+    { ObjectId 392 }
+}
+

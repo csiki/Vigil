@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a30" }
+    { Type ObjectAnnotation }
+    { GUID "UID_8518CE60-A7A7-4161-9A9E-5F4218AD05CE" }
+}
+
+NodeObject 99999
+{
+    { Name "RegistryModifier,Spy" }
+    { Type UmlAssociation }
+    { ObjectId 796 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_0D5E8C7E-3202-4b35-9559-A90BC8AA9D56" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 818 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 820 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "RegistryModifier,Spy" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 821 }
+}
+

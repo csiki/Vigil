@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a18" }
+    { Type ObjectAnnotation }
+    { GUID "UID_BF647ECF-D38A-45fe-B2FA-B62FA861FD88" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,TeamManager" }
+    { Type UmlAssociation }
+    { ObjectId 463 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E67C7C75-5C20-4aee-96C8-F5C3570E7204" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 485 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 487 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Commander,TeamManager" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 488 }
+}
+

@@ -1,0 +1,64 @@
+FileObject 1
+{
+    { Name "a4" }
+    { Type ObjectAnnotation }
+    { GUID "UID_72EE2D37-17BA-4c5f-B7FD-3E6F753A74E4" }
+}
+
+NodeObject 99999
+{
+    { Name "Protocol" }
+    { Type UmlClass }
+    { ObjectId 108 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_AF5BC6F0-2AB3-49e7-A07A-AA20A2D4B379" }
+}
+
+NodeObject 99998
+{
+    { Name "Commander" }
+    { Type UmlClass }
+    { ObjectId 107 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B3E9AA9D-A08C-4704-9D6E-5EB334057902" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlDependency }
+    { ObjectId 197 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_DE15C3BA-2EF3-43b5-999F-7081A38070F2" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 201 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 203 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 204 }
+}
+

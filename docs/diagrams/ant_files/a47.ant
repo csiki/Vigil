@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a47" }
+    { Type ObjectAnnotation }
+    { GUID "UID_E1B905A1-13CD-4e10-9021-49AA5DC167F2" }
+}
+
+NodeObject 99999
+{
+    { Name "EngineerTeam,ModuleManager" }
+    { Type UmlAssociation }
+    { ObjectId 1289 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4FF07E1A-1F8C-4ee8-94AE-D07FCBCD6625" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1311 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1313 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "EngineerTeam,ModuleManager" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 1314 }
+}
+

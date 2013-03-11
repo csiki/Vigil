@@ -1,0 +1,73 @@
+FileObject 1
+{
+    { Name "a51" }
+    { Type ObjectAnnotation }
+    { GUID "UID_E4E1965A-F507-433e-9B3D-C82192EAFB8D" }
+}
+
+NodeObject 99999
+{
+    { Name "Crypter" }
+    { Type UmlClass }
+    { ObjectId 949 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A2D38B93-4081-40d7-94C7-1540487F0812" }
+}
+
+NodeObject 99998
+{
+    { Name "Secretary" }
+    { Type UmlClass }
+    { ObjectId 1431 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_79C28A2F-65EF-4fa8-9022-61BE8700484C" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlDependency }
+    { ObjectId 1467 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_45E89B7B-2152-4748-9565-EC72D15A4869" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 1472 }
+}
+
+ItemObject 3
+{
+    { Type UmlStereotype }
+    { Value "uses" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1479 }
+}
+
+NoteObject 4
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 1474 }
+}
+
+ItemObject 5
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 4 }
+    { ObjectId 1475 }
+}
+

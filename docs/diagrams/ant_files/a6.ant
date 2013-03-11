@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a6" }
+    { Type ObjectAnnotation }
+    { GUID "UID_DFA21F99-080A-406b-8301-38E2FFED6F24" }
+}
+
+NodeObject 99999
+{
+    { Name "Protocol,Scheduler" }
+    { Type UmlAssociation }
+    { ObjectId 223 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A535E482-BDDB-4dcf-BDD9-2534A1901D11" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 245 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 247 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Protocol,Scheduler" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 248 }
+}
+

@@ -1,0 +1,99 @@
+FileObject 1
+{
+    { Name "a17" }
+    { Type ObjectAnnotation }
+    { GUID "UID_4D376369-9256-40dd-8B91-867E2994985F" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,TeamManager" }
+    { Type UmlAssociation }
+    { ObjectId 463 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E67C7C75-5C20-4aee-96C8-F5C3570E7204" }
+}
+
+NodeObject 99998
+{
+    { Name "TeamManager" }
+    { Type UmlClass }
+    { ObjectId 462 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E9A6591C-EDDB-4e08-87A4-2F6A5D6D4DA2" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlRole }
+    { ObjectId 464 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_4BECCF5B-956C-4b60-B0C2-A9610331E865" }
+}
+
+NoteObject 2
+{
+    { Type UmlRoleDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 469 }
+}
+
+ItemObject 3
+{
+    { Type UmlMultiplicity }
+    { Value "1" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 493 }
+}
+
+ItemObject 4
+{
+    { Type UmlRoleNavigability }
+    { Value "True" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 479 }
+}
+
+ItemObject 5
+{
+    { Type UmlAggregationType }
+    { Value "None" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 470 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 472 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 474 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 475 }
+}
+

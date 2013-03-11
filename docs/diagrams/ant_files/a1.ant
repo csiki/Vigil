@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a1" }
+    { Type ObjectAnnotation }
+    { GUID "UID_1E54CAA1-1210-4cff-881A-64FFFE9A2E26" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,Scheduler" }
+    { Type UmlAssociation }
+    { ObjectId 110 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_F7F40107-9940-48c1-AC8B-CD6CF95B41B3" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 119 }
+}
+
+ItemObject 3
+{
+    { Type UmlStereotype }
+    { Value "nested" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 175 }
+}
+
+NoteObject 4
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 121 }
+}
+
+ItemObject 5
+{
+    { Type ObjectName }
+    { Value "Commander,Scheduler" }
+    { GuidRef "" }
+    { NoteId 4 }
+    { ObjectId 122 }
+}
+

@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a33" }
+    { Type ObjectAnnotation }
+    { GUID "UID_1974A16B-07FB-4868-BCA5-959C4F4A90CE" }
+}
+
+NodeObject 99999
+{
+    { Name "Informator,InformatorTeam" }
+    { Type UmlAssociation }
+    { ObjectId 868 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_01841198-63E7-4354-A0BC-E4805A848A80" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 890 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 892 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Informator,InformatorTeam" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 893 }
+}
+

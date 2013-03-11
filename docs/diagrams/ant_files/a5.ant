@@ -1,0 +1,99 @@
+FileObject 1
+{
+    { Name "a5" }
+    { Type ObjectAnnotation }
+    { GUID "UID_71478BF5-4543-4943-8495-233D869A83FA" }
+}
+
+NodeObject 99999
+{
+    { Name "Protocol,Scheduler" }
+    { Type UmlAssociation }
+    { ObjectId 223 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A535E482-BDDB-4dcf-BDD9-2534A1901D11" }
+}
+
+NodeObject 99998
+{
+    { Name "Protocol" }
+    { Type UmlClass }
+    { ObjectId 108 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_AF5BC6F0-2AB3-49e7-A07A-AA20A2D4B379" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlRole }
+    { ObjectId 224 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_D4E772E1-041E-46cf-8E82-E63C8604C078" }
+}
+
+NoteObject 2
+{
+    { Type UmlRoleDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 229 }
+}
+
+ItemObject 3
+{
+    { Type UmlMultiplicity }
+    { Value "1" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 269 }
+}
+
+ItemObject 4
+{
+    { Type UmlRoleNavigability }
+    { Value "True" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 239 }
+}
+
+ItemObject 5
+{
+    { Type UmlAggregationType }
+    { Value "None" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 230 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 232 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 234 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 235 }
+}
+

@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a16" }
+    { Type ObjectAnnotation }
+    { GUID "UID_31A2E1A5-FDB8-4698-AFFD-CCA11018D306" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,Spy" }
+    { Type UmlAssociation }
+    { ObjectId 424 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_EE1668F3-9A2D-478d-AB0F-DB98C608AFC6" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 446 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 448 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Commander,Spy" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 449 }
+}
+

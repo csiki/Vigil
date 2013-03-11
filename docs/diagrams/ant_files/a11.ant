@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a11" }
+    { Type ObjectAnnotation }
+    { GUID "UID_A4DFD905-851A-4869-B815-6C9A8606C416" }
+}
+
+NodeObject 99999
+{
+    { Name "Interpreter" }
+    { Type UmlClass }
+    { ObjectId 345 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_F340F34D-78E0-49c8-BD87-22AF67AE5978" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 350 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 352 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Interpreter" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 353 }
+}
+

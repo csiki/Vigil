@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a45" }
+    { Type ObjectAnnotation }
+    { GUID "UID_BFCE3C59-BFF7-4d04-BFBA-FFB65D277A71" }
+}
+
+NodeObject 99999
+{
+    { Name "Commander,Member" }
+    { Type UmlAssociation }
+    { ObjectId 1250 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_762AF88E-9350-4155-BAC2-CF5E4595CBB1" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1272 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1274 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Commander,Member" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 1275 }
+}
+

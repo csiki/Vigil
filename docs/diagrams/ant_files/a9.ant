@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a9" }
+    { Type ObjectAnnotation }
+    { GUID "UID_32304457-60FA-4726-807F-BB9B370A30D5" }
+}
+
+NodeObject 99999
+{
+    { Name "Action,Protocol" }
+    { Type UmlAssociation }
+    { ObjectId 278 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_C0FC0D11-BC7C-463f-B500-486D3AAF5F4E" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 300 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 302 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Action,Protocol" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 303 }
+}
+

@@ -1,0 +1,81 @@
+FileObject 1
+{
+    { Name "a10" }
+    { Type ObjectAnnotation }
+    { GUID "UID_CEDE2A18-38C3-455c-8441-3F3A46F38604" }
+}
+
+NodeObject 99999
+{
+    { Name "Action,Protocol" }
+    { Type UmlAssociation }
+    { ObjectId 278 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_C0FC0D11-BC7C-463f-B500-486D3AAF5F4E" }
+}
+
+NodeObject 99998
+{
+    { Name "Protocol" }
+    { Type UmlClass }
+    { ObjectId 108 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_AF5BC6F0-2AB3-49e7-A07A-AA20A2D4B379" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlRole }
+    { ObjectId 280 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_EA4E1745-AEF2-403c-84BC-28373C08A3FC" }
+}
+
+NoteObject 2
+{
+    { Type UmlRoleDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 327 }
+}
+
+ItemObject 3
+{
+    { Type UmlAggregationType }
+    { Value "Composition" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 337 }
+}
+
+NoteObject 4
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 330 }
+}
+
+NoteObject 5
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 332 }
+}
+
+ItemObject 6
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 5 }
+    { ObjectId 333 }
+}
+

@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a28" }
+    { Type ObjectAnnotation }
+    { GUID "UID_83266F3E-B5D7-43e4-9527-6418542FA715" }
+}
+
+NodeObject 99999
+{
+    { Name "Module,ModuleManager" }
+    { Type UmlAssociation }
+    { ObjectId 708 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_14F263D4-8B16-44ca-9DB5-B28002E3D374" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 730 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 732 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Module,ModuleManager" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 733 }
+}
+
